@@ -1,10 +1,28 @@
 # Decentralized autonomous Organization
 
+* A decentralized autonomous Organization (DAO) is a collective Entity owned and operated by its Community Members
+* Funds are stored in their in the Treasury of the DAO and are governed by Smart Contracts, which means DAOs do not have to rely on Intermediate (like Banks) to store their Funds
+* There is no central Authority within the Organization
+* Decisions are executed via Proposals and Voting, this ensures Fairness and Equality amongst its Owners (Community Members)
+* DAOs allow everyone to have a voice within the Proposal and Voting
+
+* Smart Contracts are a Computer Programs that run on the Blockchain, they are executed once pre-determined Conditions are met
+* They represent the Laws of the DAO - this Rules Set in the Smart Contract will govern the Entity
+* This Rules Set is defined in Code therefore there is no Need for an Intermediary to facilitate Trust and execute Decisions
+
 ## Governance
 
 * Governance is all the Processes of Interaction over a Social System
 * It is done by the Government of a State, by a Market or by a Network
 * The Goal of Governance to allow a Group of People to make generally accepted Decisions
+
+## Advantages of DAOs
+
+* There is no Need for a DAO to store Funds with traditional Banks
+* This avoids any Read Tapes and Regulation preventing the DAO from opening Bank Accounts, because it already has its own Bank (Treasury)
+
+* Decisions that impact the DAO are not exclusively carried out by a small Group of People
+* Each Member of the Collective (DAO) has the Opportunity to propose Decisions that can shape the entire Organization (DAO)
 
 ## Types of Governance
 
