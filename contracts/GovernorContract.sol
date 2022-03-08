@@ -17,7 +17,7 @@ contract GovernorContract is Governor, GovernorCountingSimple, GovernorVotes, Go
         ERC20Votes _token,
         /* DAO does not executed any Proposal before the Timelock Controller has been executed */
         TimelockController _timelock,
-        /* Percentage of how much People have to vote on the Proposal to be accepted */
+        /* Percentage of how much People (from the total Supply) have to vote on the Proposal to be accepted */
         uint256 _quorumPercentage,
         /* After how much Blocks the Voting is ending */
         uint256 _votingPeriod,

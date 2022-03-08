@@ -6,6 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Wrapper.sol";
 
+/* ERC20Wrapper allows to wrap an exiting ERC20 Token into a Voting Token (ERC20Votes) */
 contract MyToken is ERC20, ERC20Permit, ERC20Votes, ERC20Wrapper {
     constructor(IERC20 wrappedToken) ERC20("MyToken", "MTK") ERC20Permit("MyToken") ERC20Wrapper(wrappedToken) {
     }
