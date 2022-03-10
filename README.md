@@ -28,9 +28,12 @@
 
 | Off-Chain Governance                                                                                         | On-Chain Governance                                           |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| A Person (EOA) or a Group of Persons (Mutlisignature) is in Control                                          | Specific Governor Contract is in Control                      |
+| A Person (EOA) or a Group of Persons (Multi-Signature*) is in Control                                        | Specific Governor Contract is in Control                      |
 | Community Members can express their Opinions                                                                 | Community Members Vote are submitted to the Governor Contract |
 | Vote Results are non-binding (so the Person with Control could execute an Action without approved by a Vote) | Actions can only be executed if they are approved by a Vote   |
+
+* *Multi-Signature: Control over the Smart Contract is split between several individual Signers, and a specific Number of all Signers are required to approve any Transactions from the Multi-Signature
+
 
 ## OpenZeppelin Governor Modules
 
